@@ -26,16 +26,16 @@
 
     <!--Social link-->
      
-        <meta name="description" content="这是我的CS224N课堂笔记，作为努力学习的开始，希望能够坚持下去！ 课程名称：Natural Language Processing with Deep Learning 课程类型：Stanford Online Course 授课老师：Professor Christopher Manning  课堂安排  The course Human language and word meaning">
+        <meta name="description" content="这是我的CS224N课堂笔记，作为努力学习的开始，希望能够坚持将笔记整理完毕！ CS224N是NLP领域的热门课程，我从2019年年初开始学习，虽然没有完成整个课程的学习，但被曼宁教授深入浅出的讲解和侃侃而谈的风格深深吸引，一开始学习就不想停下来，非常适合初学者入门。为了帮助大家温故而知新，我将个人学习笔记整理出来，力求简洁清晰，让大家能够迅速理解重点基础概念，课程中每周的作业都会提供解答（仅供参">
 <meta property="og:type" content="article">
 <meta property="og:title" content="CS224N-Lecture1">
 <meta property="og:url" content="http://feixiang788.github.io/2020/05/24/CS224N-Lecture1/index.html">
 <meta property="og:site_name" content="Miller">
-<meta property="og:description" content="这是我的CS224N课堂笔记，作为努力学习的开始，希望能够坚持下去！ 课程名称：Natural Language Processing with Deep Learning 课程类型：Stanford Online Course 授课老师：Professor Christopher Manning  课堂安排  The course Human language and word meaning">
+<meta property="og:description" content="这是我的CS224N课堂笔记，作为努力学习的开始，希望能够坚持将笔记整理完毕！ CS224N是NLP领域的热门课程，我从2019年年初开始学习，虽然没有完成整个课程的学习，但被曼宁教授深入浅出的讲解和侃侃而谈的风格深深吸引，一开始学习就不想停下来，非常适合初学者入门。为了帮助大家温故而知新，我将个人学习笔记整理出来，力求简洁清晰，让大家能够迅速理解重点基础概念，课程中每周的作业都会提供解答（仅供参">
 <meta property="og:locale" content="zh">
 <meta property="og:image" content="https://i.loli.net/2020/05/24/ncIheLd1zKrEXlm.png">
 <meta property="article:published_time" content="2020-05-24T09:33:02.000Z">
-<meta property="article:modified_time" content="2020-05-24T13:33:51.634Z">
+<meta property="article:modified_time" content="2020-05-24T14:59:45.865Z">
 <meta property="article:author" content="Xiang Hang">
 <meta property="article:tag" content="NLP">
 <meta name="twitter:card" content="summary_large_image">
@@ -98,6 +98,8 @@
         
         
             
+    <span class="separate-dot"></span><a href="/categories/%E7%AC%94%E8%AE%B0/" class="button">笔记</a>
+
  
         
         
@@ -112,7 +114,7 @@
     <div class="post__with-side">
         <aside class="post-side">
             <div class="post-side__toc">
-                <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-the-course课程简介"><span class="toc-text"> 1 The course课程简介</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#课程主旨"><span class="toc-text"> 课程主旨</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-human-language-and-word-meaning人类语言和字词含义"><span class="toc-text"> 2 Human language and word meaning人类语言和字词含义</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#21-人类语言"><span class="toc-text"> 2.1 人类语言</span></a></li></ol></li></ol>
+                <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#课堂安排"><span class="toc-text"> 课堂安排</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-the-course课程简介"><span class="toc-text"> 1 The course课程简介</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#课程主旨"><span class="toc-text"> 课程主旨</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-human-language-and-word-meaning人类语言和字词含义"><span class="toc-text"> 2 Human language and word meaning人类语言和字词含义</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#21-人类语言"><span class="toc-text"> 2.1 人类语言</span></a></li></ol></li></ol>
             </div>
         </aside>
 
@@ -146,11 +148,12 @@
     </div>
     <div class="post__content">
         <div class="markdown-body">
-            <p>这是我的CS224N课堂笔记，作为努力学习的开始，希望能够坚持下去！<br />
-课程名称：Natural Language Processing with Deep Learning<br />
+            <p>这是我的CS224N课堂笔记，作为努力学习的开始，希望能够坚持将笔记整理完毕！<br />
+CS224N是NLP领域的热门课程，我从2019年年初开始学习，虽然没有完成整个课程的学习，但被曼宁教授深入浅出的讲解和侃侃而谈的风格深深吸引，一开始学习就不想停下来，非常适合初学者入门。为了帮助大家温故而知新，我将个人学习笔记整理出来，力求简洁清晰，让大家能够迅速理解重点基础概念，课程中每周的作业都会提供解答（仅供参考），由于个人才疏学浅如果有不当之处，还请大家批评指正（好不容易整好disqus欢迎大家用起来）。</p>
+<p>课程名称：Natural Language Processing with Deep Learning<br />
 课程类型：Stanford Online Course<br />
 授课老师：Professor Christopher Manning</p>
-<h1 id="课堂安排"><a class="markdownIt-Anchor" href="#课堂安排"></a> 课堂安排</h1>
+<h2 id="课堂安排"><a class="markdownIt-Anchor" href="#课堂安排"></a> 课堂安排</h2>
 <ol>
 <li>The course</li>
 <li>Human language and word meaning</li>
@@ -204,6 +207,8 @@
     
     
         <div class="post-cats post-card__cats">
+    
+        <a href="/categories/%E7%AC%94%E8%AE%B0/" class="post-cats__link button">笔记</a>
     
 </div> 
         <div class="post-tags post-card__tags">
