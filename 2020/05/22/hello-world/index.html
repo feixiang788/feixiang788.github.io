@@ -279,19 +279,16 @@
 
     
         
-        <script src="https://cdn.jsdelivr.net/npm/disqusjs@1.2/dist/disqus.js"></script>
-        <script>
-            new DisqusJS({
-            shortname: 'millerboy',
-            siteName: 'Miller',
-            api: 'https://odd-dust-d406.millerboy.workers.dev/api/',
-            apikey: '',
-            admin: '',
-            identifier: '2020/05/22/hello-world/',
-            url: 'http://yoursite.com/2020/05/22/hello-world/',
-            nesting: '2'
-            });
-        </script>
+            <script>
+                var disqus_shortname = 'millerboy', disqus_url = 'http://yoursite.com/2020/05/22/hello-world/';
+                (function(){
+                    var dsq = document.createElement('script');
+                    dsq.type = 'text/javascript';
+                    dsq.async = true;
+                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+            </script>
         
     
     
