@@ -26,22 +26,55 @@
 
     <!--Social link-->
      
-        <meta name="twitter:card" content="summary_large_image " />
-        
-            <meta property="og:type" content="article" />
-        
-        <meta property="og:locale" content="zh" />
-        <meta property="og:site_name" content="Miller>" />
-        <meta property="og:title" content="CS224N-Lecture1 课程介绍与词向量 | Miller " />
-        <meta property="og:description" content=" " />
-        <meta property="og:image" content="" />
-     
+        <meta name="description" content="CS224N-Lecture1 课程介绍与词向量Natural Language Processing with Deep LearningStanford Online Course by Professor Christopher Manning  课堂安排-本节课的教学思路 The course Human language and word meaning Word2vec algorit">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CS224N-Lecture1 课程介绍与词向量">
+<meta property="og:url" content="http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/index.html">
+<meta property="og:site_name" content="Miller">
+<meta property="og:description" content="CS224N-Lecture1 课程介绍与词向量Natural Language Processing with Deep LearningStanford Online Course by Professor Christopher Manning  课堂安排-本节课的教学思路 The course Human language and word meaning Word2vec algorit">
+<meta property="og:locale" content="zh">
+<meta property="og:image" content="https://raw.githubusercontent.com/feixiang788/imrep/master/3B00230B-6328-4F41-BA81-7DCE29692D07.png">
+<meta property="og:image" content="http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/785E08CD-B360-4396-9192-C3A1D4470012.png">
+<meta property="og:image" content="http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/CCE6C16A-F8CE-44ED-A367-C857165E7367.png">
+<meta property="og:image" content="http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/%E6%88%AA%E5%B1%8F2020-05-22%E4%B8%8B%E5%8D%8810.05.49.png">
+<meta property="og:image" content="http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/%E6%88%AA%E5%B1%8F2020-05-22%E4%B8%8B%E5%8D%8810.06.29.png">
+<meta property="og:image" content="http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/92EEEED9-FAC9-4760-928A-AEDB927C2E16.png">
+<meta property="og:image" content="http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/8D262E19-DBD4-43E7-807B-3FAC01C3DDF1.png">
+<meta property="og:image" content="http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/%E6%88%AA%E5%B1%8F2020-05-22%E4%B8%8B%E5%8D%8810.39.17.png">
+<meta property="og:image" content="http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/%E6%88%AA%E5%B1%8F2020-05-22%E4%B8%8B%E5%8D%8810.41.09.png">
+<meta property="og:image" content="http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/%E6%88%AA%E5%B1%8F2020-05-22%E4%B8%8B%E5%8D%8810.54.03.png">
+<meta property="og:image" content="http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/2767B222-C07E-484F-BBCC-74364FE34D13.png">
+<meta property="og:image" content="http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-03-30%20%E4%B8%8A%E5%8D%888.02.40.png">
+<meta property="og:image" content="http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-03-30%20%E4%B8%8A%E5%8D%888.05.48.png">
+<meta property="og:image" content="http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/%E6%88%AA%E5%B1%8F2020-05-22%E4%B8%8B%E5%8D%8811.25.05.png">
+<meta property="og:image" content="http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-03-30%20%E4%B8%8A%E5%8D%888.27.54.png">
+<meta property="og:image" content="http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-03-30%20%E4%B8%8B%E5%8D%8812.29.09.png">
+<meta property="og:image" content="http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-03-30%20%E4%B8%8B%E5%8D%8812.32.06.png">
+<meta property="og:image" content="http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/48EEBD0D-E235-49DC-A0D1-654893C8CF80.png">
+<meta property="og:image" content="http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/A9A3355D-7C46-446B-9852-763614E9B6CC.png">
+<meta property="og:image" content="http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/%E6%88%AA%E5%B1%8F2020-05-23%E4%B8%8A%E5%8D%8812.11.41.png">
+<meta property="og:image" content="http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/%E6%88%AA%E5%B1%8F2020-05-23%E4%B8%8A%E5%8D%889.45.45.png">
+<meta property="og:image" content="http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/%E6%88%AA%E5%B1%8F2020-05-23%E4%B8%8A%E5%8D%889.49.01.png">
+<meta property="og:image" content="http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/%E6%88%AA%E5%B1%8F2020-05-23%E4%B8%8A%E5%8D%889.49.40.png">
+<meta property="og:image" content="http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/%E6%88%AA%E5%B1%8F2020-05-23%E4%B8%8A%E5%8D%889.50.50.png">
+<meta property="og:image" content="http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/%E6%88%AA%E5%B1%8F2020-05-23%E4%B8%8A%E5%8D%889.55.12.png">
+<meta property="og:image" content="http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/%E6%88%AA%E5%B1%8F2020-05-23%E4%B8%8A%E5%8D%889.55.47.png">
+<meta property="og:image" content="http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/%E6%88%AA%E5%B1%8F2020-05-23%E4%B8%8A%E5%8D%889.56.17.png">
+<meta property="og:image" content="http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/%E6%88%AA%E5%B1%8F2020-05-23%E4%B8%8A%E5%8D%889.56.57.png">
+<meta property="og:image" content="http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/BD92CBE1-B85C-4190-ADC1-61931E2A9479.png">
+<meta property="og:image" content="http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/0751811D-22E1-42F5-9446-1A119554409E.png">
+<meta property="article:published_time" content="2020-05-23T09:03:06.388Z">
+<meta property="article:modified_time" content="2020-05-24T07:50:40.350Z">
+<meta property="article:author" content="Xiang Hang">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/feixiang788/imrep/master/3B00230B-6328-4F41-BA81-7DCE29692D07.png">
+    
 
     <!-- feed -->
     
 
     
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-theme-cards@0.2/dist/css/style.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-theme-cards@0.3/dist/css/style.min.css">
  
     
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-theme-cards@0.1/dist/css/github.min.css" crossorigin="anonymous" media="none" onload="this.media='all'">
@@ -85,7 +118,7 @@
     <h1 class="post-title__text">
         CS224N-Lecture1 课程介绍与词向量
     </h1>
-    <div class="post-meta">
+    <div class="post-title__meta">
         
             <a href="/archives/2020/05/" class="button" style="color: #808080;">
     2020-05-23
@@ -104,17 +137,39 @@
 </div>
 
 
-    <div class="with-side">
+    <div class="post__with-side">
         <aside class="post-side">
             <div class="post-side__toc">
                 <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#课堂安排-本节课的教学思路"><span class="toc-text">课堂安排-本节课的教学思路</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-The-course课程简介"><span class="toc-text">1 The course课程简介</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#课程主旨"><span class="toc-text">课程主旨</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-Human-language-and-word-meaning人类语言和字词含义"><span class="toc-text">2 Human language and word meaning人类语言和字词含义</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-1-人类语言"><span class="toc-text">2.1 人类语言</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-2-我们如何表示单词的含义"><span class="toc-text">2.2 我们如何表示单词的含义</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-Word2Vec概述"><span class="toc-text">3 Word2Vec概述</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-Word2Vec：Objective-function目标函数"><span class="toc-text">4 Word2Vec：Objective function目标函数</span></a></li></ol>
             </div>
         </aside>
 
-<div class="post content-box">
+<article class="post content-card">
     <div class="post__header">
         
              
+        
+        
+            
+    <div class="post__expire" id="post-expired-notify">
+        <p>
+            本文最后更新于 <span id="expire-date"></span> 天前，文中部分描述可能已经过时。
+        </p>
+    </div>
+    <script>
+        (() => {
+            var update = Date.parse("2020-05-24"),
+                date = new Date(),
+                now = date.getTime(),
+                expire = now - update,
+                expire_days = Math.floor(expire/(24*3600*1000));
+            if (expire_days >= 120) {
+                document.querySelectorAll('#expire-date')[0].innerHTML = expire_days;
+                document.querySelectorAll('#post-expired-notify')[0].style.display = 'block';
+            }
+        })();
+    </script>
+
         
     </div>
     <div class="post__content">
@@ -138,7 +193,7 @@
 <hr>
 <h2 id="2-Human-language-and-word-meaning人类语言和字词含义"><a href="#2-Human-language-and-word-meaning人类语言和字词含义" class="headerlink" title="2 Human language and word meaning人类语言和字词含义"></a>2 Human language and word meaning人类语言和字词含义</h2><h3 id="2-1-人类语言"><a href="#2-1-人类语言" class="headerlink" title="2.1 人类语言"></a>2.1 人类语言</h3><p>1）XKCD cartoon<br>引入漫画来启发人们对于自然语言本质的理解。<br>人类语言不同于正式的书面语言。</p>
 <blockquote>
-<p>That language is this amazing, human created system that is used for all sorts of purposes and is adaptable to all sorts of purposes.<br><img src="CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/3B00230B-6328-4F41-BA81-7DCE29692D07.png" alt=""><br>对于人类语言使用的一种形象化表述<br>We’re these unbelievably complicated brains drifting through a void, trying in vain to connect with one another by blindly finding words out in darkness.<br>语言的作用<br>Every choice of phrasing and spelling, and tone, and timing carriers countless signals and contexts and subtexts and more.<br>每一个听者会以自己的方法解释这些符号<br>And every listener interprets those signals in their own way.<br>语言并不是一种形式系统，语言是一种光鲜的混乱<br>Language isn’t a formal system, language is glorious chaos.<br>语言中具有太多不确定性，所以<br>All you can do is try to get better at guessing how your  words affect people, so  you can have a chance of finding the ones that will make them feel something like what you want them to feel. We‘re using language not just for the information functions but for social functions.<br>2）语言承载了人类的智慧，在世界范围内传播知识通过语言<br>So, essentially if we want to have artificial intelligence that’s intelligent, what we need to somehow get to the point of having computers that have the knowledge of human beings, right?<br>人类有智慧，因为人类有知识，知识的传播靠语言。<br><img src="CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/785E08CD-B360-4396-9192-C3A1D4470012.png" alt=""><br>谈到了Yann Le Cun的错误论断——星星和人类在智能上没有区别。人类主要通过语言来进行知识的储备。人类与猩猩最大的不同在于对知识的理解。<br>人类虽然没有动物那么迅猛，但人类通过语言进行沟通协作，从而变得高效和不可战胜。<br>So writing was then an ability where you could take knowledge not only communicated mouth to mouth to people that you saw.<br>写作赋予我们不仅仅是人与人之间的口语信息传递，人们也可以通过写作传递信息，并且能够跨越空间和时间传递信息。语言同样可以让人类之间构建起简单的沟通联系网络，但同现代通信网络的带宽相比显得少的可怜。<br>此外，人类之间的沟通交流究竟是如何进行的？<br>So, humans have come up with this incredibly impressive system which is essentially form of compression. Sort of a very adaptive form of compression, so that when we’re talking to people, we assume that they have an enormous amount of knowledge in their heads which isn’t the same as but it’s broadly similar to mine when I’m talking to you right? That you know what English words mean, and you know a lot about how the world works. And therefore, I can say a short message and communicate only a relatively short bit string and you can actually understand a lot.<br>Manning举例说：”image a busy shopping mall and that there are two guys standing in front of a makeup counter.”从这个例子可以看出，语言能够比图像更容易传达人脑易于理解的画面信息。</p>
+<p>That language is this amazing, human created system that is used for all sorts of purposes and is adaptable to all sorts of purposes.<br><img src="https://raw.githubusercontent.com/feixiang788/imrep/master/3B00230B-6328-4F41-BA81-7DCE29692D07.png" alt="">对于人类语言使用的一种形象化表述<br>We’re these unbelievably complicated brains drifting through a void, trying in vain to connect with one another by blindly finding words out in darkness.<br>语言的作用<br>Every choice of phrasing and spelling, and tone, and timing carriers countless signals and contexts and subtexts and more.<br>每一个听者会以自己的方法解释这些符号<br>And every listener interprets those signals in their own way.<br>语言并不是一种形式系统，语言是一种光鲜的混乱<br>Language isn’t a formal system, language is glorious chaos.<br>语言中具有太多不确定性，所以<br>All you can do is try to get better at guessing how your  words affect people, so  you can have a chance of finding the ones that will make them feel something like what you want them to feel. We‘re using language not just for the information functions but for social functions.<br>2）语言承载了人类的智慧，在世界范围内传播知识通过语言<br>So, essentially if we want to have artificial intelligence that’s intelligent, what we need to somehow get to the point of having computers that have the knowledge of human beings, right?<br>人类有智慧，因为人类有知识，知识的传播靠语言。<br><img src="CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/785E08CD-B360-4396-9192-C3A1D4470012.png" alt=""><br>谈到了Yann Le Cun的错误论断——星星和人类在智能上没有区别。人类主要通过语言来进行知识的储备。人类与猩猩最大的不同在于对知识的理解。<br>人类虽然没有动物那么迅猛，但人类通过语言进行沟通协作，从而变得高效和不可战胜。<br>So writing was then an ability where you could take knowledge not only communicated mouth to mouth to people that you saw.<br>写作赋予我们不仅仅是人与人之间的口语信息传递，人们也可以通过写作传递信息，并且能够跨越空间和时间传递信息。语言同样可以让人类之间构建起简单的沟通联系网络，但同现代通信网络的带宽相比显得少的可怜。<br>此外，人类之间的沟通交流究竟是如何进行的？<br>So, humans have come up with this incredibly impressive system which is essentially form of compression. Sort of a very adaptive form of compression, so that when we’re talking to people, we assume that they have an enormous amount of knowledge in their heads which isn’t the same as but it’s broadly similar to mine when I’m talking to you right? That you know what English words mean, and you know a lot about how the world works. And therefore, I can say a short message and communicate only a relatively short bit string and you can actually understand a lot.<br>Manning举例说：”image a busy shopping mall and that there are two guys standing in front of a makeup counter.”从这个例子可以看出，语言能够比图像更容易传达人脑易于理解的画面信息。</p>
 </blockquote>
 <h3 id="2-2-我们如何表示单词的含义"><a href="#2-2-我们如何表示单词的含义" class="headerlink" title="2.2 我们如何表示单词的含义"></a>2.2 我们如何表示单词的含义</h3><p>1）什么是意义（meaning）？<br>定义:meaning(Webster dictionary)<br>    * the idea that is represented by a word, phrase, etc<br>    * the idea that a person wants to express by using words, signs, etc.<br>    * the idea that is expressed in a work of art.<br>大多数语言学家这样看待意义：<br>signifier(symbol)↔️signified(idea or thing)<br><strong>denotation semantic</strong>：表示语义，这种表示方法很难计算<br>2）How do we have usable meaning in computer?<br>（1）第一种方法：WordNet<br>Use WordNet, a thesaurus containing lists of synonym sets and hypernyms(“is a” relationships)</p>
 <blockquote>
@@ -158,7 +213,7 @@
         
     <div class="post__license">
         <p>
-            <strong>本文作者：Hang Xiang</strong>
+            <strong>本文作者：</strong>Xiang Hang
         </p>
         
             <p>
@@ -168,14 +223,12 @@
                 </strong>
             </p>
         
-        
-            <p>
-                <strong>
-                    本文链接：
-                </strong>
-                <a href="http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/">http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/</a>
-            </p>
-        
+        <p>
+            <strong>
+                本文链接：
+            </strong>
+            <a href="http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/">http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/</a>
+        </p>
     </div>
  
     
@@ -189,16 +242,15 @@
     
         <div class="post-cats post-card__cats">
     
-</div>
-
-<div class="post-tags post-card__tags">
+</div> 
+        <div class="post-tags post-card__tags">
     
 </div> 
      
-</div>
+</article>
 <br>
 
-    <div class="post__comment content-box">
+    <div class="post__comment content-card">
         
     <h4 style="margin-top: 0;">评论</h4>
     
@@ -220,39 +272,39 @@
 
 
     <br>
-    <div class="author">
+    <div class="cover">
         
-            <div class="cover-menus">
+            <div class="cover__menus">
                 
-                    <a href="/demo/" class="cover-menu button">
+                    <a href="/" class="cover-menu button">
                         首页
                     </a>
                     
-                        ·
+                        <span class="separate-dot"></span>
                     
                 
-                    <a href="/demo/tags/" class="cover-menu button">
+                    <a href="/tags/" class="cover-menu button">
                         标签
                     </a>
                     
-                        ·
+                        <span class="separate-dot"></span>
                     
                 
-                    <a href="/demo/archives/" class="cover-menu button">
+                    <a href="/archives/" class="cover-menu button">
                         归档
                     </a>
                     
-                        ·
+                        <span class="separate-dot"></span>
                     
                 
-                    <a href="/demo/friends/" class="cover-menu button">
+                    <a href="/friends/" class="cover-menu button">
                         友链
                     </a>
                     
-                        ·
+                        <span class="separate-dot"></span>
                     
                 
-                    <a href="/demo/page/" class="cover-menu button">
+                    <a href="/page/" class="cover-menu button">
                         Page
                     </a>
                     
@@ -298,16 +350,19 @@
 
     
         
-            <script>
-                var disqus_shortname = 'millerboy', disqus_url = 'http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/';
-                (function(){
-                    var dsq = document.createElement('script');
-                    dsq.type = 'text/javascript';
-                    dsq.async = true;
-                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-                })();
-            </script>
+        <script src="https://cdn.jsdelivr.net/npm/disqusjs@1.2/dist/disqus.js"></script>
+        <script>
+            new DisqusJS({
+                shortname: 'millerboy',
+                siteName: 'Miller',
+                api: 'https://odd-dust-d406.millerboy.workers.dev/api/',
+                apikey: 'vpGRBQeAhOXr5Y88zfd7U9YetowAZc3tVaw9hkqArx9njVx3HEp8rt5iXORW3CfV',
+                admin: '',
+                identifier: '2020/05/23/CS224N-Lecture1 课程介绍与词向量/',
+                url: 'http://feixiang788.github.io/2020/05/23/CS224N-Lecture1%20%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F/',
+                nesting: '2'
+            });
+        </script>
         
     
     
