@@ -261,7 +261,7 @@
                     repo: 'feixiang788.github.io',
                     owner: 'feixiang788',
                     admin: 'feixiang788',
-                    id: window.location.pathname,
+                    id: decodeURI(window.location.pathname),
                     distractionFreeMode: false
                 });
                 gitalk.render('gitalk-container');
